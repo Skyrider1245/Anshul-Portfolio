@@ -1,0 +1,124 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body and Layout */
+body {
+    font-family: Arial, sans-serif;
+    background-color: black;
+    color: white;
+    line-height: 1.6;
+}
+
+/* Navigation Bar */
+nav {
+    background-color: black;
+    padding: 10px 0;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+nav .container {
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav .logo {
+    color: #fff;
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+nav .nav-links {
+    list-style: none;
+    display: flex;
+}
+
+nav .nav-links li {
+    margin-left: 20px;
+}
+
+nav .nav-links li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2rem;
+    transition: color 0.3s ease;
+}
+
+nav .nav-links li a:hover {
+    color: blue;
+    filter: drop-shadow(0 0 10px blue);
+    text-decoration: underline;
+}
+
+/* About Me Section */
+.about-me {
+    background-color: #333;
+    padding: 60px 0;
+}
+
+.about-me .container {
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.profile-image {
+    flex: 1;
+    max-width: 250px;
+    margin-right: 40px;
+}
+
+.profile-image img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.bio {
+    flex: 2;
+}
+
+.bio h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: greenyellow;
+    text-decoration: underline;
+}
+
+.bio p {
+    font-size: 1.2rem;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.O {
+    text-align: center;
+}
+
+h2 span {
+    color: cyan;
+}
+
+/* Footer */
+footer {
+    background-color: black;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
